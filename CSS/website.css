@@ -1,0 +1,63 @@
+body{
+    background-color: #133861;
+    margin: 0%;
+}
+.balk {
+    height: 35px;
+    width: 100%;
+    background-color: #133861;
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+.logo{
+    height: 35px;
+    padding-left: 40px;
+}
+nav{
+    margin-right: 10px;
+}
+
+.balklink{
+    color: white;
+    text-decoration: none; 
+    transition: color 0.3s; 
+    padding-left: 25px;
+}
+.balklink:hover{
+    color: darkgray;
+}
+body:not(.balk) {
+    background-color: white;
+}
+.midden{
+    height: 400px;
+    background-color: white;
+    border-bottom: solid 1px #133861;
+    margin-bottom: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}   
+.selfie {
+    max-height: 100%; 
+}
+
+
+.h1start{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+.bodem{
+    background-color: white;
+    height: 500px;
+    margin-top: 0% ;
+
+}
+
+
+
+
+
