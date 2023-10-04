@@ -19,7 +19,6 @@ body{
 nav{
     margin-right: 10px;
 }
-
 .balklink{
     color: white;
     text-decoration: none; 
@@ -38,14 +37,27 @@ body:not(.balk) {
     border-bottom: solid 1px #133861;
     margin-bottom: 0%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: flex-end;
 }   
 .selfie {
-    max-height: 100%; 
+    max-height: 100%;     
+}
+.links, .rechts {
+    flex-basis: calc(50% - 10px); 
 }
 
-
+.h2startlinks, .paragraaflinks {
+    text-align: left;
+    margin-left: 20px; 
+}
+.h2startlinks, .paragraaflinks, .h2startrechts, .paragraafrechts {
+    text-align: left;
+    margin-left: 20px; 
+}
+.paragraaflinks + p, .paragraafrechts + p {
+    margin-top: 10px;
+}
 .h1start{
     font-family: 'Montserrat', sans-serif;
     text-align: center;
@@ -54,7 +66,6 @@ body:not(.balk) {
     background-color: white;
     height: 500px;
     margin-top: 0% ;
-
 }
 
 
