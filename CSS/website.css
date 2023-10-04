@@ -45,15 +45,13 @@ body:not(.balk) {
 }
 .links, .rechts {
     flex-basis: calc(50% - 10px); 
+    height: 250px;
 }
-
 .h2startlinks, .paragraaflinks {
-    text-align: left;
-    margin-left: 20px; 
+    text-align: center;
 }
 .h2startlinks, .paragraaflinks, .h2startrechts, .paragraafrechts {
-    text-align: left;
-    margin-left: 20px; 
+    text-align: center; 
 }
 .paragraaflinks + p, .paragraafrechts + p {
     margin-top: 10px;
