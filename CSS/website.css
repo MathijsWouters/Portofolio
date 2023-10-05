@@ -43,7 +43,7 @@ body:not(.balk) {
 .selfie {
     max-height: 100%;     
 }
-.links, .rechts {
+.linksmidden, .rechtsmidden {
     flex-basis: calc(50% - 10px); 
     height: 250px;
 }
@@ -62,9 +62,24 @@ body:not(.balk) {
 }
 .bodem{
     background-color: white;
-    height: 500px;
     margin-top: 0% ;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; 
+    padding: 20px;
 }
+.linksbodem, .middenbodem, .rechtsbodem {
+    flex-basis: calc(25% - 10px); 
+}
+.middenbodem {
+    flex-basis: calc(50% - 10px); 
+}
+.paragraafbodem{
+    padding: 15px;
+    border: solid 3px #1E60AE;
+    border-radius: 10px;
+}
+
 
 
 
