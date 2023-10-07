@@ -16,14 +16,14 @@ body{
     height: 35px;
     padding-left: 40px;
 }
-nav{
-    margin-right: 10px;
+.startnav{
+    margin-right: 40px;
 }
 .balklink{
     color: white;
     text-decoration: none; 
     transition: color 0.3s; 
-    padding-left: 25px;
+    padding-left: 40px;
 }
 .balklink:hover{
     color: darkgray;
@@ -31,7 +31,7 @@ nav{
 body:not(.balk) {
     background-color: white;
 }
-.midden{
+.startmidden{
     height: 400px;
     background-color: white;
     border-bottom: solid 1px #133861;
@@ -43,7 +43,7 @@ body:not(.balk) {
 .selfie {
     max-height: 100%;     
 }
-.linksmidden, .rechtsmidden {
+.startlinksmidden, .startrechtsmidden {
     flex-basis: calc(50% - 10px); 
     height: 250px;
 }
@@ -53,14 +53,14 @@ body:not(.balk) {
 .h2startlinks, .paragraaflinks, .h2startrechts, .paragraafrechts {
     text-align: center; 
 }
-.paragraaflinks + p, .paragraafrechts + p {
+.startparagraaflinks + p, .paragraafrechts + p {
     margin-top: 10px;
 }
 .h1start{
     font-family: 'Montserrat', sans-serif;
     text-align: center;
 }
-.bodem{
+.startbodem{
     background-color: white;
     margin-top: 0% ;
     display: flex;
@@ -68,17 +68,52 @@ body:not(.balk) {
     align-items: flex-start; 
     padding: 20px;
 }
-.linksbodem, .middenbodem, .rechtsbodem {
+.startlinksbodem, .startmiddenbodem, .startrechtsbodem {
     flex-basis: calc(25% - 10px); 
 }
-.middenbodem {
+.startmiddenbodem {
     flex-basis: calc(50% - 10px); 
 }
-.paragraafbodem{
+.startparagraafbodem{
     padding: 15px;
     border: solid 3px #1E60AE;
     border-radius: 10px;
 }
+.startfotobodem{
+    
+}
+/*ervaringen pagina layout*/
+.ervaringencontent {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.ervaringencontentlinks {
+    width: 40%;
+    float: left;
+    border:solid 1px #133861;
+    height: 700px;
+}
+.videoervaringen {
+    width: 100%; 
+    height: 65%; 
+    border: solid 1px #133861;
+}
+
+.linkervaringen {
+    width: 100%; 
+    height: 35%; 
+    border: solid 1px #133861;
+}
+
+.ervaringencontentrechts {
+    width: 60%;
+    float: left;
+    border:solid 1px #133861;
+    height: 700px;
+}
+
+
 
 
 
