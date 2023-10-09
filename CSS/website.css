@@ -1,36 +1,43 @@
+*{
+    margin: 0;
+}
 body{
-    background-color: #133861;
-    margin: 0%;
+
 }
-.balk {
-    height: 35px;
-    width: 100%;
+
+/* Navigation bar */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
     background-color: #133861;
-    padding: 0%;
-    margin: 0%;
     display: flex;
-    justify-content: space-between; 
-    align-items: center;
+    justify-content: flex-end;
 }
-.logo{
-    height: 35px;
-    padding-left: 40px;
-}
-.startnav, .ervaringennav, .hobbynav{
-    margin-right: 40px;
-}
-.balklink{
+li a {
+    display: block;
     color: white;
-    text-decoration: none; 
-    transition: color 0.3s; 
-    padding-left: 40px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
 }
-.balklink:hover{
-    color: darkgray;
+  
+li a:hover:not(.active) {
+    background-color: #1E60AE;
 }
-body:not(.balk) {
-    background-color: white;
+  
+.active {
+    background-color: #062B5C;
 }
+  #logo{
+    height: 35px;
+    padding-left: 25px; 
+    float: left;
+}
+/* contentstart */
 .startmidden{
     height: 400px;
     background-color: white;
