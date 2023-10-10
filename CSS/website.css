@@ -11,6 +11,41 @@ h1 {
 p {
     font-family: 'Montserrat', sans-serif;
 }
+footer {
+    background-color: #133861;
+    padding: 0 10px;
+    margin-top: 15px;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 35px; 
+}
+footer p {
+    font-family: 'Times New Roman', Times, serif;
+    padding-right: 10px;
+    margin: 0;
+}
+#myBtn {
+    display: none;
+    position: fixed;
+    font-family: 'Times New Roman', Times, serif;
+    bottom: 35px;
+    right: 15px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #133861;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  #myBtn:hover {
+    background-color: #1E60AE;
+    transition: background-color 0.5s ease;
+  }
 /* Navigation bar */
 .navigation {
     display: flex;

@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="CSS/website.css">
 </head>
 <body>
+    <button onclick="topFunction()" id="myBtn" title="Ga naar boven">Naar boven</button>
     <div class="navigation">
         <div id="logo"><img src="images/logo mathijs.png" alt="logo"></div>
         <ul> 
@@ -57,6 +58,25 @@
         <div class="startrechtsbodem">
             <img src="" alt="" class="startfotobodem">
         </div>      
-    </div>  
+    </div>
+    <footer>
+        <p>&copy; Mathijs Wouters</p>
+    </footer>
+    <script>
+        let mybutton = document.getElementById("myBtn");
+        window.onscroll = function() {scrollFunction()};
+
+            function scrollFunction() {
+            if (document.body.scrollTop > window.innerHeight / 2 || document.documentElement.scrollTop > window.innerHeight / 2) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+            }
+                        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+            }
+    </script>  
 </body>
 </html>
