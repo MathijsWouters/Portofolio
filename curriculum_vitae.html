@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mathijs Wouters - Curriculum Vitae</title>
+    <link rel="stylesheet" href="CSS/website.css">
+</head>
+<body>
+    <button onclick="topFunction()" id="myBtn-links" title="Ga naar boven">Naar boven</button>
+    <div class="navigation">
+        <div id="logo"><img src="images/logo mathijs.png" alt="logo"></div>
+            <ul> 
+                <li><a href="index.html">Start</a></li>
+                <li><a href="curriculum_vitae.html">Curriculum Vitae</a></li>
+                <li><a href="ervaringen.html">Ervaringen</a></li>
+                <li><a href="hobby's.html">Hobby's</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+    </div>
+    <div class="background-image">
+        <img src="images/profiel-foto.jpg" alt="Mathijs Wouters" class="profiel-foto">
+        <h1>MATHIJS WOUTERS</h1>
+        <p class="designation">STUDENT</p>
+    </div>
+    <div class="curriculum-content">
+            <div class="links-cv">
+                <h2>PERSOONLIJK PROFIEL</h2>
+                    <p>Uiterst gemotiveerd om mijn vaardigheden continu te ontwikkelen en professioneel te groeien.</p>
+                <h2>CONTACT</h2>
+                    <a href="contact.html">Contact pagina</a>
+                <h2>OPLEIDING</h2>
+                <ul>
+                    <li>Sint-Pieters-instituut Turnhout</li>
+                    <li>Wetenschappen-wiskunde 2017 - 2022</li>
+                    <li>Sint Pieters-instituut Turnhout</li>
+                    <li>STEM 2015-2017</li>
+                </ul>
+            </div>
+            <div class="rechts-cv">
+                <h2>WERKERVARING</h2>
+                    <p>Administratieve ondersteuning (Van Rooijen Logistiek)</p>
+                    <p>Schietstandlaan 2 2300 Turnhout</p>
+                    <p>Werken met Excel en onderhouden van data.</p>
+                
+                <h2>TALENKENNIS</h2>
+                <ul>
+                    <li>Nederlands (moedertaal)</li>
+                    <li>Engels 80%<div class="progress-bar"><div class="progress" style="width: 80%;"></div></div></li>
+                    <li>Frans 50%<div class="progress-bar"><div class="progress" style="width: 50%;"></div></div>
+                    </li>
+                </ul>
+                <h2>VAARDIGHEDEN</h2>
+                <ul>
+                    <li>Enthousiast werken</li>
+                    <li>Succesvol in het werken in teamverband als ook zelfstandig</li>
+                    <li>Het vermogen om instructies te volgen en kwalitatieve resultaten te behalen</li>
+                    <li>Python 15%<div class="progress-bar"><div class="progress" style="width: 15%;"></div></div>
+                    </li>
+                    <li>C# 30%<div class="progress-bar"><div class="progress" style="width: 30%;"></div></div>
+                    </li>
+                </ul>
+                <h2>HOBBIES</h2>
+                <ul>
+                    <li>Chiro</li>
+                    <li>Programmeren</li>
+                    <li>Het lezen en luisteren van science-fiction wetenschap</li>
+                    <li>Wandelen</li>
+                </ul>
+            </div>
+    </div>
+    <footer>
+        <p>&copy; Mathijs Wouters</p>
+    </footer> 
+    <script>
+        let mybutton = document.getElementById("myBtn-links");
+        window.onscroll = function() {scrollFunction()};
+
+            function scrollFunction() {
+            if (document.body.scrollTop > window.innerHeight / 2 || document.documentElement.scrollTop > window.innerHeight / 2) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+            }
+                        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+            }
+    </script>
+</body>
+</html>
