@@ -6,9 +6,11 @@
     <meta name="description" content="Mijn ervaringen pagina">
     <link rel="stylesheet" href="CSS/website.css">
     <meta name="author" content="Mathijs Wouters">
+    <link rel="icon" href="images/Favicon_portofolio.ico">
     <title>Hobby's</title>
 </head>
 <body>
+    <button onclick="topFunction()" id="myBtn-links" title="Ga naar boven">Naar boven</button>
     <header>
         <nav class="navigation">
             <div id="logo"><img src="images/logo_mathijs.png" alt="logo"></div>
@@ -34,8 +36,14 @@
                 <h2>Oud-leiding</h2>
                 <p>Als voormalig lid van de Chiro, met de status van oud-leiding, is er ook de mogelijkheid om deel te nemen aan de traditie van het 'vlag stelen' tijdens kampen. Deze activiteit vormt een boeiende en vermakelijke manier om de vakantie door te brengen. Het gebeurt in samenwerking met oude vrienden uit je groep of met mensen die ooit eveneens leiding waren toen je zelf nog actief lid was. Het is een uitdagende onderneming die een speciale plaats heeft binnen de Chiro-cultuur</p>
                 <p>Het stelen van de vlag tijdens kampen brengt niet alleen opwinding met zich mee, maar versterkt ook de banden tussen oud-leden en oud-leiding, terwijl het de tradities van de organisatie in ere houdt. Het is een waardevolle gelegenheid om herinneringen op te halen en nieuwe herinneringen te creëren, terwijl je de geest van avontuur en kameraadschap koestert die zo kenmerkend is voor de Chiro.</p>
-                <a href="https://chirozevendonk.be/" target="blank">Chiro Zevendonk</a>
             </section>
+            <nav class="Chironav">
+                <ul class="chiro-links">
+                    <li><a href="https://chirozevendonk.be/" target="_blank">Website</a></li>
+                    <li><a href="https://www.facebook.com/groups/175182225935705" target="_blank">Facebook</a></li>
+                    <li><a href="https://www.instagram.com/chiro_zevendonk/" target="_blank">Instagram</a></li>
+                </ul> 
+            </nav>
         </article>
         <article class="hobbycontentrechts">
             <section class="hobbytekstrechts">
@@ -53,5 +61,21 @@
     <footer>
         <p>&copy; Mathijs Wouters</p>
     </footer>
+    <script>
+        let mybutton = document.getElementById("myBtn-links");
+        window.onscroll = function() {scrollFunction()};
+
+            function scrollFunction() {
+            if (document.body.scrollTop > window.innerHeight / 2 || document.documentElement.scrollTop > window.innerHeight / 2) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+            }
+                        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+            }
+    </script>
 </body>
 </html>
