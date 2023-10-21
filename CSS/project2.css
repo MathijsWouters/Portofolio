@@ -38,4 +38,8 @@ footer.bg-body-tertiary a:hover i {
         transform-origin: center;
     }
 }
-
+.custom-btn-width {
+    width: 150px; 
+    max-width: 100%; 
+    white-space: nowrap; 
+}
