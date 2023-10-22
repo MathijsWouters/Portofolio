@@ -43,3 +43,9 @@ footer.bg-body-tertiary a:hover i {
     max-width: 100%; 
     white-space: nowrap; 
 }
+.divider {
+    height: 2px;
+    background-color: #133861;  
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); 
+    margin: 20px 0;  
+}
