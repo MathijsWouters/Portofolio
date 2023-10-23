@@ -66,18 +66,11 @@
     </nav>
     <main class="container">
       <section class="px-4 py-1 my-1 text-center">
-        <img
-          class="d-block mx-auto mb-4"
-          src="images/start_selfie.png"
-          alt="Mathijs Selfie"
-        />
+        <img class="d-block mx-auto mb-4 image-to-rotate" src="images/start_selfie.png" alt="Mathijs Selfie" />
         <h1 class="display-5 fw-bold text-body-emphasis">Mathijs Wouters</h1>
         <div class="col-lg-6 mx-auto">
           <p class="lead mb-4">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem ut
-            eius maxime rem tempore distinctio laudantium facere, fuga, porro
-            dolore autem nihil nostrum sunt libero, soluta ea quibusdam quae
-            voluptatem.
+            20 lentes jong. Via deze website ontdekt u mijn levensloop met behulp van mijn CV, de ervaringen die ik opgedaan heb, mijn passies en manieren om mij te bereiken. Ik nodig u uit om mijn wereld te verkennen en te ontdekken wat ik voor u kan betekenen. Ik zie uit naar uw reactie!"
           </p>
           <div
             class="d-flex flex-column flex-sm-row gap-2 justify-content-sm-center"
@@ -109,9 +102,7 @@
             <div class="card-body">
               <h5 class="card-title">Wie ben ik?</h5>
               <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
+                Mijn naam is Mathijs Wouters, 20 jaar, met een hart voor avontuur en verbinding. Ervaringen hebben mij gevormd, veelal opgedaan tijdens zonnige zondagen en onvergetelijke kampen. Als sociaal persoon hecht ik veel waarde aan de banden die we smeden. Graag deel ik met u meer over mijn levensreis en de ervaringen die mij gemaakt hebben tot wie ik nu ben.</p>
               <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
           </div>
@@ -122,8 +113,7 @@
             <div class="card-body">
               <h5 class="card-title">Interesses</h5>
               <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                Centraal in mijn interesses staat de Chiro. Deze jeugdbeweging heeft mij avonturen, vriendschappen en waardevolle levenslessen geboden. Van zondagen vol spel tot kampen in Spanje, elke ervaring heeft mijn perspectief verrijkt. Hoewel ik diverse passies heb, blijft de saamhorigheid en groei die de Chiro biedt, het meest dichtbij mijn hart.
               </p>
               <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
@@ -133,11 +123,9 @@
           <div class="card">
             <img src="..." class="card-img-top" alt="..." />
             <div class="card-body">
-              <h5 class="card-title">Ervaring</h5>
+              <h5 class="card-title">Werkervaring</h5>
               <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
+                Bij Van Rooijen Logistiek startte mijn carrière in het magazijn, waar ik bestellingen gereed maakte. Na twee jaar maakte ik de overgang naar de administratie, waar ik chauffeursdocumenten verwerkte en databestanden beheerde. Deze dynamische rolverandering bood mij zowel uitdaging als professionele groei binnen het bedrijf.              </p>
               <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
           </div>
@@ -175,5 +163,10 @@
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
+    <script>
+      document.querySelector('.image-to-rotate').addEventListener('click', function() {
+        this.classList.toggle('rotate360');
+      });
+    </script>
   </body>
 </html>
