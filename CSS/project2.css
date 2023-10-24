@@ -1,3 +1,9 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: #f1f1f1
+}
 /*navbar*/
 .navbar.bg-body-tertiary,
 footer.bg-body-tertiary {
@@ -52,4 +58,12 @@ footer.bg-body-tertiary a:hover i {
 .rotate360 {
     transition: transform 1s;
     transform: rotate(360deg);
-  }
+}
+.card-img-top {
+    height: 360px;  
+    object-fit: cover;
+}
+.custom-border {
+    border-color: #133861; 
+    border-width: 1px;     
+}
