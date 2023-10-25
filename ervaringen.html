@@ -1,54 +1,170 @@
 <!DOCTYPE html>
-<html lang="nl">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Mijn ervaringen pagina">
-    <link rel="stylesheet" href="CSS/website.css">
-    <meta name="author" content="Mathijs Wouters">
-    <link rel="icon" href="images/Favicon_portofolio.ico">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Mijn ervaringen pagina" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="CSS/project2.css" />
+    <meta name="author" content="Mathijs Wouters" />
+    <link rel="icon" href="images/Favicon_portofolio.ico" />
     <title>Ervaringen</title>
-</head>
-<body>
-    <header class="navigation">
-        <div id="logo"><img src="images/logo_mathijs.png" alt="logo"></div>
-        <nav> 
-            <ul> 
-                <li><a href="index.html">Start</a></li>
-                <li><a href="curriculum_vitae.html">Curriculum Vitae</a></li>
-                <li><a href="ervaringen.html">Ervaringen</a></li>
-                <li><a href="hobby's.html">Hobby's</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header> 
-    <main class="ervaringencontent">
-        <section class="ervaringencontentlinks">
-            <figure class="videoervaringen">
-                <iframe src="https://www.youtube.com/embed/yLU0pVE0Uyo?si=zWLyq9wVJcrFME8b" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            </figure>
-            <div class="linkervaringen">
-                <nav>
-                    <a href="https://www.vanrooijen.nl/" target="_blank">
-                        <figure>
-                            <img src="images/Logo_VanRooijen.jpg" alt="Logo VanRooijen" class="logovanrooijen">
-                        </figure>
-                    </a>
-                </nav>
-            </div> 
-        </section>
-        <article class="ervaringencontentrechts">
-            <div class="tekstervaringen">
-                <h1>Werken bij Van Rooijen logistiek</h1>
-                <p>Bij mijn aanvankelijke aanstelling bij Van Rooijen Logistiek was mijn initiële rol gelegen in het magazijn, waar ik betrokken was bij het samenstellen en gereed maken van bestellingen voor verzending naar verschillende winkels. Deze taken omvatten met name uitgebreide activiteiten zoals het bedienen van een transpallet en het uitvoeren van hefwerkzaamheden.
-                </p>
-                <p>Na een periode van twee jaar kreeg ik de kans om mijn werkterrein te verleggen van het magazijn naar de administratieve afdeling. Mijn verantwoordelijkheden op het administratieve vlak hielden onder andere in het verwerken en organiseren van de documentatie die chauffeurs bij ons indienden. Deze documenten werden systematisch gescand en op dagelijkse basis gearchiveerd. In de loop van de tijd werden aan mijn takenpakket extra verantwoordelijkheden toegevoegd, zoals het bijwerken van Excel-spreadsheets met essentiële gegevens en het creëren van nieuwe documenten die dienden als hulpmiddel voor het monitoren van operationele activiteiten gedurende specifieke maanden.</p>
-                <p>Mijn functie op de administratieve afdeling heeft zich geleidelijk uitgebreid en heeft mij uitgedaagd met steeds complexere taken. Dit heeft mijn professionele groei gestimuleerd en mijn werkervaring bij Van Rooijen Logistiek is constant boeiend en verfrissend gebleven.</p>
-            </div>
-        </article>   
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand ms-3" href="index.html">
+          <img src="images/logo_mathijs2.png" alt="logo" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto ms-auto mb-2 mb-lg-0">
+            <li class="nav-item me-5">
+              <a class="nav-link fw-bold" href="index.html">Start</a>
+            </li>
+            <li class="nav-item me-5">
+              <a class="nav-link fw-bold" href="curriculum_vitae.html"
+                >Curriculum Vitae</a
+              >
+            </li>
+            <li class="nav-item me-5">
+              <a class="nav-link fw-bold" href="ervaringen.html">Ervaringen</a>
+            </li>
+            <li class="nav-item me-5">
+              <a class="nav-link fw-bold" href="hobby's.html">Hobby's</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <main class="container mt-4">
+      <section class="row">
+        <article class="col-md-6 mb-4">
+          <div class="ratio ratio-16x9">
+            <iframe
+              src="https://www.youtube.com/embed/yLU0pVE0Uyo?si=crGhyJIN-eXJ2dCf"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <h3 class="mt-3">Van Rooijen Logistiek: Efficiëntie op Wielen</h3>
+          <p>
+            Van Rooijen Logistiek, actief in België en Nederland, zet zich
+            dagelijks in voor efficiënt en veilig transport. In hun korte
+            bedrijfsfilm zie je hoe zij elk pakket met zorg en precisie
+            behandelen, steeds strevend naar de beste logistieke oplossingen.
+            Ontdek hoe hun expertise in transport een wereld van verschil maakt.
+          </p>
+        </article>
+        <aside class="col-md-6">
+          <h2>Werken bij Van Rooijen logistiek</h2>
+          <p>
+            Bij mijn aanvankelijke aanstelling bij Van Rooijen Logistiek was
+            mijn initiële rol gelegen in het magazijn, waar ik betrokken was bij
+            het samenstellen en gereed maken van bestellingen voor verzending
+            naar verschillende winkels. Deze taken omvatten met name uitgebreide
+            activiteiten zoals het bedienen van een transpallet en het uitvoeren
+            van hefwerkzaamheden.
+          </p>
+          <p>
+            Na een periode van twee jaar kreeg ik de kans om mijn werkterrein te
+            verleggen van het magazijn naar de administratieve afdeling. Mijn
+            verantwoordelijkheden op het administratieve vlak hielden onder
+            andere in het verwerken en organiseren van de documentatie die
+            chauffeurs bij ons indienden. Deze documenten werden systematisch
+            gescand en op dagelijkse basis gearchiveerd. In de loop van de tijd
+            werden aan mijn takenpakket extra verantwoordelijkheden toegevoegd,
+            zoals het bijwerken van Excel-spreadsheets met essentiële gegevens
+            en het creëren van nieuwe documenten die dienden als hulpmiddel voor
+            het monitoren van operationele activiteiten gedurende specifieke
+            maanden.
+          </p>
+          <p>
+            Mijn functie op de administratieve afdeling heeft zich geleidelijk
+            uitgebreid en heeft mij uitgedaagd met steeds complexere taken. Dit
+            heeft mijn professionele groei gestimuleerd en mijn werkervaring bij
+            Van Rooijen Logistiek is constant boeiend en verfrissend gebleven.
+          </p>
+        </aside>
+      </section>
     </main>
-    <footer>
-        <p>&copy; Mathijs Wouters</p>
+    <section class="mt-4 d-flex justify-content-center align-items-center">
+      <div class="card card-link">
+        <a
+          href="https://www.vanrooijen.nl/"
+          target="_blank"
+          class="stretched-link"
+        >
+          <figure>
+            <img
+              src="images/Logo_VanRooijen.jpg"
+              alt="Logo VanRooijen"
+              class="logovanrooijen"
+            />
+          </figure>
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+          </div>
+        </a>
+      </div>
+    </section>
+    <footer
+      class="d-flex flex-wrap justify-content-center align-items-center py-3 my-4 border-top bg-body-tertiary mb-0"
+    >
+      <div class="d-flex align-items-center mx-3">
+        <a href="/" class="text-body-secondary text-decoration-none lh-1"> </a>
+        <span class="text-body-secondary">&copy; Mathijs Wouters</span>
+      </div>
+      <ul class="nav justify-content-center list-unstyled d-flex mx-3">
+        <li class="ms-3">
+          <a class="text-body-secondary" href="#"
+            ><i class="bi bi-facebook"></i
+          ></a>
+        </li>
+        <li class="ms-3">
+          <a class="text-body-secondary" href="#"
+            ><i class="bi bi-instagram"></i
+          ></a>
+        </li>
+        <li class="ms-3">
+          <a class="text-body-secondary" href="#"
+            ><i class="bi bi-linkedin"></i
+          ></a>
+        </li>
+      </ul>
     </footer>
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

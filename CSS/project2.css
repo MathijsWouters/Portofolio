@@ -67,3 +67,32 @@ footer.bg-body-tertiary a:hover i {
     border-color: #133861; 
     border-width: 1px;     
 }
+.card-link {
+    width: 18rem; 
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    border: 2px solid #133861; 
+    border-radius: 1rem; 
+    margin: 0 auto; 
+}
+.card-link:hover {
+    transform: scale(1.1);
+    z-index: 10;
+    position: relative;
+}
+.card-link a {
+    text-decoration: none;
+    color: black;
+}
+.card-link a:hover {
+    text-decoration: none;
+}
+.card-link .card-title,
+.card-link .card-text {
+    color: black;
+}
+.card-link img {
+    width: 93%; 
+    margin: 0 auto; 
+    display: block; 
+}
