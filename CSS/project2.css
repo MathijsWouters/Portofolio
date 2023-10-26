@@ -96,4 +96,20 @@ footer.bg-body-tertiary a:hover i {
     margin: 0 auto; 
     display: block; 
 }
+.carousel .carousel-inner .carousel-item img {
+    height: 500px;
+    object-fit: cover;  
+    width: auto;        
+}
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
 
+.carousel-item {
+    position: relative;
+    display: none;
+    align-items: center;
+    width: 100%;
+}
