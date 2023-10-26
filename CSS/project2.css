@@ -113,3 +113,10 @@ footer.bg-body-tertiary a:hover i {
     align-items: center;
     width: 100%;
 }
+.custom-img-max-height {
+    max-height: 450px; 
+    width: auto; 
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+  }
