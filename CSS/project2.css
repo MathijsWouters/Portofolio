@@ -4,6 +4,9 @@ html {
 body {
     background-color: #f1f1f1
 }
+h1, h2, h3, h4, h5, h6{
+    color: #1E60AE !important;
+}
 /*navbar*/
 .navbar.bg-body-tertiary,
 footer.bg-body-tertiary {
@@ -150,4 +153,66 @@ footer.bg-body-tertiary a:hover i {
   display: block;
   margin-left: auto;
   margin-right: auto; 
+}
+.badge.bg-secondary{
+    background-color: #1E60AE !important;
+}
+.white-background{
+    background-color: #f1f1f1; 
+}
+
+.gray-background {
+    background-color: #ececec; 
+}
+#accordionExample {
+    background-color: #f1f1f1;
+}
+.accordion-item {
+    background-color: #f1f1f1;
+    border: 1px solid #133861;
+}
+.accordion-button:not(.collapsed) {
+    background-color: #f1f1f1; 
+    border-bottom: 1px solid #133861;
+}
+.accordion-button.collapsed {
+    background-color: #f1f1f1; 
+}
+.accordion-body {
+    background-color: #f1f1f1;
+}
+.btn.btn-primary {
+    background-color: #133861;
+    border-color: #133861;
+    transition: background-color 0.3s ease, border-color 0.3s ease; 
+    margin-bottom: 10px;
+}
+.btn.btn-primary:hover {
+    background-color: #1E60AE;
+    border-color: #1E60AE; 
+}
+main.gray-line .col-md-6 h2::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 5px;
+    background-color: darkgray;
+    margin-top: 10px; 
+    margin-bottom: 20px;
+}
+#naam{
+    color: white !important;
+}
+.custom-progress {
+    height: 15px;
+    max-width: 30%;
+    background-color: #f1f1f1; 
+    border: 1px solid #133861; 
+    border-radius: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px; 
+}
+
+.custom-bar {
+    background-color: #1E60AE; 
 }
