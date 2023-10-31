@@ -7,11 +7,11 @@ body {
 h1, h2, h3, h4, h5, h6{
     color: #1E60AE !important;
 }
-/*navbar*/
 .navbar.bg-body-tertiary,
 footer.bg-body-tertiary {
     background-color: #133861 !important;
     border-top: 1px solid #133861 !important;
+    margin-top: 0 !important;
 }
 footer.bg-body-tertiary .text-body-secondary {
     color: #ffffff !important;
