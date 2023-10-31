@@ -122,12 +122,21 @@ footer.bg-body-tertiary a:hover i {
     width: 100%;
     overflow: hidden;
 }
-
 .carousel-item {
     position: relative;
-    display: none;
     align-items: center;
     width: 100%;
+}
+.carousel-caption {
+    background-color: #1E60AE;
+    border-radius: 10px;
+    padding: 10px 20px; 
+    margin-bottom: 20px;
+    opacity: 0.75; 
+}
+.carousel-caption h5,
+.carousel-caption p {
+    color: white !important; 
 }
 .custom-img-max-height {
     max-height: 450px; 
