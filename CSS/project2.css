@@ -4,8 +4,13 @@ html {
 body {
     background-color: #f1f1f1
 }
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;700&family=Montserrat:wght@400;700&display=swap');
 h1, h2, h3, h4, h5, h6{
+    font-family: 'Libre Franklin', sans-serif;
     color: #1E60AE !important;
+}
+p {
+    font-family: 'Montserrat', sans-serif;
 }
 .back-to-top-btn {
     position: fixed;
@@ -17,6 +22,7 @@ h1, h2, h3, h4, h5, h6{
     transition: background-color 0.3s; 
 }
 .back-to-top-btn:hover {
+    color: white;
     background-color: #3D5B7A !important; 
 }
 .navbar.bg-body-tertiary,
@@ -174,10 +180,30 @@ main.gray-line .col-md-6 h2::after {
     margin-top: 5px;
     margin-bottom: 5px; 
 }
-
 .custom-bar {
     background-color: #1E60AE; 
 }
+.image-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .image-links a {
+    margin: 0 20px; 
+
+    transition: transform 0.3s; 
+    display: inline-block; 
+  }
+  
+  .image-links img {
+    height: 40px; 
+    width: auto;
+  }
+  .image-links a:hover {
+    transform: scale(1.5); 
+}
+
 /* Ervaringen */
 .card-link {
     width: 18rem; 
@@ -188,7 +214,7 @@ main.gray-line .col-md-6 h2::after {
     margin: 0 auto; 
 }
 .card-link:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
     z-index: 10;
     position: relative;
 }
