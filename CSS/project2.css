@@ -8,16 +8,18 @@ h1, h2, h3, h4, h5, h6{
     color: #1E60AE !important;
 }
 .back-to-top-btn {
-    display: none; 
-    position: fixed; 
-    bottom: 50px; 
-    left: 10px;
-    width: 70px;
+    position: fixed;
+    bottom: 9px !important;
+    left: 5px;
+    z-index: 1000; 
+    color: white;
+    background-color: #2B62AD !important; 
+    transition: background-color 0.3s; 
 }
-.back-to-top-btn-curriculum {
-    right: 10px; 
-    left: auto;
+.back-to-top-btn:hover {
+    background-color: #3D5B7A !important; 
 }
+
 .navbar.bg-body-tertiary,
 footer.bg-body-tertiary {
     background-color: #133861 !important;
@@ -59,11 +61,11 @@ footer.bg-body-tertiary a:hover i {
         transform-origin: center;
     }
 }
+
 .custom-btn-width {
     width: 150px; 
     max-width: 100%; 
     margin-bottom: 10px;
-    white-space: nowrap; 
 }
 .divider {
     height: 2px;
@@ -81,7 +83,7 @@ footer.bg-body-tertiary a:hover i {
 }
 .custom-border {
     border-color: #133861; 
-    border-width: 1px;     
+    border-width: 1px; 
 }
 .card-link {
     width: 18rem; 

@@ -1,28 +1,27 @@
 let mybutton = document.getElementById("myBtn");
-let isCurriculumPage = window.location.pathname.endsWith("curriculum_vitae.html");
-if (isCurriculumPage) {
-    mybutton.classList.add("back-to-top-btn-curriculum");
-}
-
-window.onscroll = function() { scrollFunction(); };
 
 function scrollFunction() {
-    let scrollTotal = document.documentElement.scrollHeight - window.innerHeight;
+    let footerTop = document.querySelector('footer').offsetTop;
+    let footerHeight = document.querySelector('footer').offsetHeight;
     let scrolledPast = window.scrollY || document.documentElement.scrollTop; 
-    let scrollThreshold = isCurriculumPage ? 0.70 : 0.50;
 
-    if (scrolledPast > scrollTotal * scrollThreshold) {
+    if (scrolledPast + window.innerHeight > footerTop) {
         mybutton.style.display = "block";
+        let overlap = (scrolledPast + window.innerHeight) - footerTop;
+        mybutton.style.bottom = footerHeight - overlap + 'px';
     } else {
         mybutton.style.display = "none";
     }
 }
 
+scrollFunction();  
+window.onscroll = scrollFunction;
 
 function topFunction() {
     document.body.scrollTop = 0; 
     document.documentElement.scrollTop = 0; 
 }
+
 document.querySelector('.image-to-rotate').addEventListener('click', function() {
     this.classList.toggle('rotate360');
 });
