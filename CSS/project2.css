@@ -19,18 +19,6 @@ h1, h2, h3, h4, h5, h6{
 .back-to-top-btn:hover {
     background-color: #3D5B7A !important; 
 }
-.contact-page .card-body {
-    position: relative;
-    padding-bottom: 60px;
-}
-
-.contact-page .btn {
-    position: absolute;
-    bottom: 10px;
-    margin-top: 10px;
-    left: 50%;
-    transform: translateX(-50%);
-}
 .navbar.bg-body-tertiary,
 footer.bg-body-tertiary {
     background-color: #133861 !important;
@@ -78,6 +66,11 @@ footer.bg-body-tertiary a:hover i {
     max-width: 100%; 
     margin-bottom: 10px;
 }
+.custom-border {
+    border-color: #133861; 
+    border-width: 1px; 
+}
+/* index */
 .divider {
     height: 2px;
     background-color: #133861;  
@@ -92,72 +85,7 @@ footer.bg-body-tertiary a:hover i {
     height: 360px;  
     object-fit: cover;
 }
-.custom-border {
-    border-color: #133861; 
-    border-width: 1px; 
-}
-.card-link {
-    width: 18rem; 
-    transition: transform 0.3s ease;
-    cursor: pointer;
-    border: 2px solid #133861; 
-    border-radius: 1rem; 
-    margin: 0 auto; 
-}
-.card-link:hover {
-    transform: scale(1.1);
-    z-index: 10;
-    position: relative;
-}
-.card-link a {
-    text-decoration: none;
-    color: black;
-}
-.card-link a:hover {
-    text-decoration: none;
-}
-.card-link .card-title,
-.card-link .card-text {
-    color: black;
-}
-.card-link img {
-    width: 93%; 
-    margin: 0 auto; 
-    display: block; 
-}
-.carousel .carousel-inner .carousel-item img {
-    height: 500px;
-    object-fit: cover;  
-    width: auto;        
-}
-.carousel-inner {
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-}
-.carousel-item {
-    position: relative;
-    align-items: center;
-    width: 100%;
-}
-.carousel-caption {
-    background-color: #1E60AE;
-    border-radius: 10px;
-    padding: 10px 20px; 
-    margin-bottom: 20px;
-    opacity: 0.75; 
-}
-.carousel-caption h5,
-.carousel-caption p {
-    color: white !important; 
-}
-.custom-img-max-height {
-    max-height: 450px; 
-    width: auto; 
-    display: block; 
-    margin-left: auto; 
-    margin-right: auto; 
-}
+/*Curriculum Vitae*/
 #contact {
     background-image: url(/images/Contactpagina_achtergrond.jpg); 
     background-size: cover; 
@@ -179,7 +107,7 @@ footer.bg-body-tertiary a:hover i {
     text-align: center;
     min-height: 250px;
  }
-.img-fluid.img-round{
+ .img-fluid.img-round{
     border-radius: 50%; 
   width: 200px; 
   height: 200px; 
@@ -250,3 +178,99 @@ main.gray-line .col-md-6 h2::after {
 .custom-bar {
     background-color: #1E60AE; 
 }
+/* Ervaringen */
+.card-link {
+    width: 18rem; 
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    border: 2px solid #133861; 
+    border-radius: 1rem; 
+    margin: 0 auto; 
+}
+.card-link:hover {
+    transform: scale(1.1);
+    z-index: 10;
+    position: relative;
+}
+.card-link a {
+    text-decoration: none;
+    color: black;
+}
+.card-link a:hover {
+    text-decoration: none;
+}
+.card-link .card-title,
+.card-link .card-text {
+    color: black;
+}
+.card-link img {
+    width: 93%; 
+    margin: 0 auto; 
+    display: block; 
+}
+.ratio {
+    border-radius: 15px;
+    border: 1px solid #133861;
+    overflow: hidden; 
+}
+/* Hobby's */
+#carouselExampleCaptions {
+    border-radius: 15px;
+    border: 1px solid #133861;
+    overflow: hidden; 
+}
+.carousel .carousel-inner .carousel-item img {
+    height: 500px;
+    object-fit: cover;  
+    width: auto;        
+}
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+.carousel-item {
+    position: relative;
+    align-items: center;
+    width: 100%;
+}
+.carousel-caption {
+    background-color: #1E60AE;
+    border-radius: 10px;
+    padding: 10px 20px; 
+    margin-bottom: 20px;
+    opacity: 0.75; 
+}
+.carousel-caption h5,
+.carousel-caption p {
+    color: white !important; 
+}
+.custom-img-max-height {
+    max-height: 450px; 
+    width: auto; 
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+/* Contact */
+.contact-page .card-body {
+    position: relative;
+    padding-bottom: 60px;
+}
+
+.contact-page .btn {
+    position: absolute;
+    bottom: 10px;
+    margin-top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+
+
+
+
+
+
+
